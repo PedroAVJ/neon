@@ -1,0 +1,4 @@
+interface:
+  display_name: "Neon Database"
+  short_description: "Decide on isolated 72-hour Neon branches"
+  default_prompt: "Use $neon to decide whether this task needs an isolated database, and create a scoped 72-hour Neon branch only if warranted."

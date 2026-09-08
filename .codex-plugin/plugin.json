@@ -1,0 +1,40 @@
+{
+  "name": "neon",
+  "version": "0.2.3",
+  "description": "Decide when work warrants an isolated, 72-hour Neon database branch and manage it with official Neon tooling.",
+  "author": {
+    "name": "PedroAVJ",
+    "url": "https://github.com/PedroAVJ"
+  },
+  "homepage": "https://github.com/PedroAVJ/neon#readme",
+  "repository": "https://github.com/PedroAVJ/neon",
+  "license": "MIT",
+  "keywords": [
+    "neon",
+    "postgres",
+    "database",
+    "ephemeral",
+    "branches"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Neon",
+    "shortDescription": "Deliberate 72-hour Neon branches",
+    "longDescription": "Decide whether a task needs database isolation, then create and manage a clearly scoped 72-hour branch through the official Neon integration, CLI, or API. No custom provisioning executable or global credential service is included.",
+    "developerName": "PedroAVJ",
+    "category": "Cloud",
+    "capabilities": [
+      "Interactive",
+      "Read",
+      "Write"
+    ],
+    "defaultPrompt": [
+      "Decide whether this work warrants an ephemeral Neon branch",
+      "Create a 72-hour Neon branch scoped to this repository and worktree",
+      "Inspect this task's temporary branch before deleting it"
+    ],
+    "brandColor": "#34D59A",
+    "composerIcon": "./assets/neon-icon.svg",
+    "logo": "./assets/neon-icon.svg"
+  }
+}
