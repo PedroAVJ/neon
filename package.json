@@ -1,6 +1,6 @@
 {
   "name": "@pedroavj/neon-plugin",
-  "version": "0.2.3",
+  "version": "0.2.4",
   "private": true,
   "description": "Dual-client skill for deliberate, short-lived Neon branches.",
   "license": "MIT",

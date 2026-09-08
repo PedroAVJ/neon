@@ -1,6 +1,6 @@
 {
   "name": "neon",
-  "version": "0.2.3",
+  "version": "0.2.4",
   "description": "Decide when work warrants an isolated, 72-hour Neon database branch and manage it with official Neon tooling.",
   "author": {
     "name": "PedroAVJ",

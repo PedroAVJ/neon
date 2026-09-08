@@ -1,6 +1,6 @@
 {
   "name": "neon",
-  "version": "0.2.3",
+  "version": "0.2.4",
   "description": "Decide when work warrants an isolated, 72-hour Neon database branch and manage it with official Neon tooling.",
   "author": {
     "name": "PedroAVJ",
@@ -22,7 +22,7 @@
     "shortDescription": "Deliberate 72-hour Neon branches",
     "longDescription": "Decide whether a task needs database isolation, then create and manage a clearly scoped 72-hour branch through the official Neon integration, CLI, or API. No custom provisioning executable or global credential service is included.",
     "developerName": "PedroAVJ",
-    "category": "Cloud",
+    "category": "Developer Tools",
     "capabilities": [
       "Interactive",
       "Read",
